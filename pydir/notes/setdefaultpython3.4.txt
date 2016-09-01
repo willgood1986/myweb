@@ -1,0 +1,10 @@
+On linux, the defautl python is 2.7
+If we want to set the default version to 3.x,
+we can do something as followed:
+$> sudo rm /usr/bin/python
+$> sudo ln -s /usr/bin/python3.x /usr/bin/python
+
+The work is done.
+
+Cheers,
+Rainy
