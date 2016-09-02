@@ -1,0 +1,21 @@
+1 r'\' raw string, just print letter by letter
+2 b'' byte string 
+3 '%d %s' %(3, 'abc')
+4 ord('A') chr(byte-value) just for single character
+5 % x -- 16bit format
+6 %.1f  -- only 1 bit float
+7  %% stands for %
+8 %s may print all formats
+9 list = ['a', 1, 3]
+  list[-1] == list[2]
+  list.append()
+  list.insert(1, 'new item')
+  list.pop() == list.pop(len(list) - 1)
+  List is inmutable
+10 tuple is mutable
+   tuple = ()
+   tuple = (onlyoneitem,)
+11 if <Condition>:
+   elif:
+   else:
+   
