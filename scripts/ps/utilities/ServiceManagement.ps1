@@ -19,7 +19,7 @@ function StartService(
     catch [Exception]
     {
         $ErrorActionPreference = "Stop"
-        Write-Host Exception occurred, message: $_.Exception.Message
+        Write-Error Exception occurred, message: $_.Exception.Message
     }
 }
 
@@ -37,7 +37,7 @@ function StopService(
     catch [Exception]
     {
         $ErrorActionPreference = "Stop"
-        Write-Host Exception occurred, message: + $_.Exception.Message
+        Write-Eror Exception occurred, message: + $_.Exception.Message
     }
 }
 
