@@ -2,4 +2,4 @@
 
 import filehelper
 
-error_define()
+filehelper.error_define()

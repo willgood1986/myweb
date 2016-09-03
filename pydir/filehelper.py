@@ -27,5 +27,8 @@ def error_define():
 def equals(first, second):
    return first == second
 
+def is_a_file(i_file):
+    return os.path.isfile(i_file)
+
 if(equals(__name__, "__main__")):
     error_define()
