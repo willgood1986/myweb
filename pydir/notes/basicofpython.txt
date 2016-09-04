@@ -18,4 +18,16 @@
 11 if <Condition>:
    elif:
    else:
-   
+12 sudo su -- switch to super user mode
+13 range
+14 when a function is not implemented, put pass as placeholder
+15 When comes to dictionary, d.get(key-name, defaultvalue) to void key-nonexistence
+16 dictionary, dict.pop(key) to delete an item
+17 set, dict appears {}
+   set = new set({1,2,3})
+18 list []
+   tuple ()
+   dict/set {}   
+19 from xxmodule import x,y
+   import xxmodule xxmodule.x
+20 isinstance(x, (type1, typ2))
