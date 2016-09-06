@@ -34,3 +34,6 @@
 21 from functools import reduce
    reduce(lambda: x, y: pass, range())
    map is a built-in function map(lambda x: pass, range)
+22 list[list.find('.'):]  
+   list[::]  --copy the whole list
+   list[::-1] --get a reverse version of the list
