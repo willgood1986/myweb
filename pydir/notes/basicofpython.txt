@@ -31,3 +31,6 @@
 19 from xxmodule import x,y
    import xxmodule xxmodule.x
 20 isinstance(x, (type1, typ2))
+21 from functools import reduce
+   reduce(lambda: x, y: pass, range())
+   map is a built-in function map(lambda x: pass, range)
